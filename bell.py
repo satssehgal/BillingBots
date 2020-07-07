@@ -32,7 +32,7 @@ class Bell:
     
     def checkPaymentRequired(self):
         balance=self.getBalance()
-        if balance > 0:
+        if (balance > 0 and balance <125):
             self.makePayment()
         else:
             print('No Payment Required')
