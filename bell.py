@@ -1,6 +1,4 @@
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.keys import Keys
 import time
 from secrets import buser, bpw, cc, ccm, ccy, csc, fullname
 from selenium.webdriver.support import expected_conditions as EC
